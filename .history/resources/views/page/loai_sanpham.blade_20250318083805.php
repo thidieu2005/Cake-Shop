@@ -68,7 +68,7 @@
                                     </div>
                                     @endif
                                     <div class="single-item-header">
-                                        <a href="product.html"><img width="200" height="170" src="/source/image/product/{{$sp->image}}" alt=""></a>
+                                        <a href="product.html"><img width="200" height="150" src="/source/image/product/{{$sp->image}}" alt=""></a>
                                     </div>
                                     <div class="single-item-body" style="font-size: 18px">
                                         <p class="single-item-title">{{$sp->name}}</p>
@@ -83,7 +83,7 @@
                                     </div>
                                     <div class="single-item-caption">
                                         <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                        <a class="beta-btn primary" href="{{ route('detail', ['id' => $sp->id]) }}">Details <i class="fa fa-chevron-right"></i></a>
+                                        <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
                                         <div class="clearfix"></div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@
                             <div class="col-sm-4">
                                 <div class="single-item">
                                     <div class="single-item-header">
-                                        <a href="product.html"><img width="200" height="170" src="/source/image/product/{{$sp_khac->image}}" alt=""></a>
+                                        <a href="product.html"><img width="200" height="150" src="/source/image/product/{{$sp_khac->image}}" alt=""></a>
                                     </div>
                                     <div class="single-item-body" style="font-size: 18px">
                                         <p class="single-item-title">{{$sp_khac->name}}</p>
@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="single-item-caption">
                                         <a class="add-to-cart pull-left" href="shopping_cart.html"><i class="fa fa-shopping-cart"></i></a>
-                                        <a class="beta-btn primary" href="{{ route('detail', ['id' => $sp->id]) }}">Details <i class="fa fa-chevron-right"></i></a>
+                                        <a class="beta-btn primary" href="product.html">Details <i class="fa fa-chevron-right"></i></a>
                                         <div class="clearfix"></div>
                                     </div>
                                 </div>

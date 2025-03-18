@@ -20,7 +20,7 @@
 	<div class="header-body">
 		<div class="container beta-relative">
 			<div class="pull-left">
-				<a href="index.html" id="logo"><img src="source/assets/dest/images/logo-cake.png" width="200px" alt=""></a>
+				<a href="index.html" id="logo"><img src="assets/dest/images/logo-cake.png" width="200px" alt=""></a>
 			</div>
 			<div class="pull-right beta-components space-left ov">
 				<div class="space10">&nbsp;</div>
@@ -98,8 +98,8 @@
 							@endforeach
 						</ul>
 					</li>
-					<li><a href="/about">Giới thiệu</a></li>
-					<li><a href="/contact">Liên hệ</a></li>
+					<li><a href=" about.html">Giới thiệu</a></li>
+					<li><a href="contacts.html">Liên hệ</a></li>
 				</ul>
 				<div class="clearfix"></div>
 			</nav>

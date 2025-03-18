@@ -30,7 +30,7 @@
   <div class="container">
     <div class="col-12 col-md-6" style="background: red;color:white">Số sản phẩm: {{count($product)}}</div>
     <div class="col-12 col-md-6" style="background: blue;color:white">Đã bán: <br />
-      <p>Tổng: {{count($product)}}</p>
+      <p>Tổng: {{count($products)}}</p>
       <p>Hôm nay: 1</p>
       <p>Tháng này: 3</p>
       <p>Năm nay: 4</p>
